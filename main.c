@@ -4,9 +4,7 @@
 #include "writeTree.h"
 #include "tests.h"
 
-// main
-
-int main(int argc, char **argv){
+int main(int argc, char **argv) {
   Node *head;
 
   // make the head node
@@ -17,7 +15,7 @@ int main(int argc, char **argv){
   printf("\nType the number of the task you want to test: ");
   scanf("%i", &input);
 
-  switch (input){
+  switch (input) {
     case 1:
       // make a non-uniform level 3 tree
       makeChildren(head, maxLevel);

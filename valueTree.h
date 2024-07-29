@@ -8,10 +8,7 @@ extern int falseResults;
 extern double tolerance;
 extern int choice;
 
-double dataFunction( double x, double y, int choice );
-
-bool indicator( Node *node, double tolerance, int choice );
-
+double dataFunction(double x, double y, int choice);
+bool indicator(Node *node, double tolerance, int choice);
 void addChildren(Node *node);
-
 void monitorChildren(Node *node);
